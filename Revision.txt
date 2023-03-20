@@ -4,4 +4,4 @@
 4. "expo start" will give a qr code but it would not open on ios saying "could not connect to the server"
 5. "npm install -g expo-cli" to run the app
 6. "expo-cli start --tunnel" command will now be used to run the app on iPhone
-7. Added constants folder
+7. Added constants folder, then styles folder
