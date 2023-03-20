@@ -5,3 +5,4 @@
 5. "npm install -g expo-cli" to run the app
 6. "expo-cli start --tunnel" command will now be used to run the app on iPhone
 7. Added constants folder, then styles folder, then assets folder, then components folder
+8. Press "Ctrl + any import component" to see its code
