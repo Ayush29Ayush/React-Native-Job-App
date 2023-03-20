@@ -6,3 +6,4 @@
 6. "expo-cli start --tunnel" command will now be used to run the app on iPhone
 7. Added constants folder, then styles folder, then assets folder, then components folder
 8. Press "Ctrl + any import component" to see its code
+9. <SafeAreaView> is used to display the content inside a safe area without the notches or home button or anything not needed
