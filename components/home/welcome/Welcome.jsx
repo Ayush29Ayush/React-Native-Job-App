@@ -18,11 +18,13 @@ const Welcome = () => {
 
   return (
     <View>
+      {/* For Heading */}
       <View style={styles.container}>
         <Text style={styles.userName}>Hello Ayush</Text>
         <Text style={styles.welcomeMessage}>Find your perfect job</Text>
       </View>
 
+      {/* For Search Bar */}
       <View style={styles.searchContainer}>
         <View style={styles.searchWrapper}>
           <TextInput 
@@ -32,7 +34,8 @@ const Welcome = () => {
             placeholder="What are you looking for?"
           />
         </View>
-
+        
+        {/* For Search Button */}
         <TouchableOpacity style={styles.searchBtn} onPress={() => {}}>
           <Image 
             source={icons.search}
@@ -40,6 +43,11 @@ const Welcome = () => {
             style={styles.searchBtnImage}
           />
         </TouchableOpacity>
+      </View>
+
+      {/* For Jobs */}
+      <View>
+        
       </View>
     </View>
   );
