@@ -8,3 +8,4 @@
 8. Press "Ctrl + any import component" to see its code
 9. <SafeAreaView> is used to display the content inside a safe area without the notches or home button or anything not needed
 10. Importing custom fonts in _layout
+11. Created a API result fetching hook called useFetch.js 
