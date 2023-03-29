@@ -1,5 +1,5 @@
 1. Created a app folder with index.js and _layout.js file
-2. Created Home and Layout function.      View is similar to <div> and Text is similar to <p>
+2. Created Home and Layout function.      View is similar to <div> and Text is similar to <p> and FlatList is a scrollable screen
 3. Installed expo-font, axios, react-native-dotenv using npm install command
 4. "expo start" will give a qr code but it would not open on ios saying "could not connect to the server"
 5. "npm install -g expo-cli" to run the app
