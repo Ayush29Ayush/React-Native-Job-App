@@ -14,6 +14,7 @@ import {
 
 const Home = () => {
   const router = useRouter(); // using useRouter hook.
+  const [searchTerm, setSearchTerm] = useState("")
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
@@ -40,7 +41,12 @@ const Home = () => {
           }}
         >
             <Welcome 
-            
+              searchTerm = {searchTerm}
+              handleClick={()=>{
+                if(searchTerm) {
+                  router.push(`/search/${searchTerm}`)
+                }
+              }}
             />
 
             <Popularjobs />
