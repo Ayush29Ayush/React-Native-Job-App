@@ -5,6 +5,8 @@
       "bundler": "metro"
     },
     "name": "React-Native-Job-App",
-    "slug": "React-Native-Job-App"
+    "slug": "React-Native-Job-App",
+    "version": "1.0.0",
+    "icon": "./assets/trialpic1.png"
   }
 }
