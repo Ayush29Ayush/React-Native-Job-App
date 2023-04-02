@@ -11,3 +11,5 @@
 11. Created a API result fetching hook called useFetch.js 
 12. React-Native apps are simple to make, we just have to know text view and some other components with some styling.
 13. OnPress similar to OnClick
+
+Bonus:- Always create all the screens and later connect them with components and passing parameters to the components.
